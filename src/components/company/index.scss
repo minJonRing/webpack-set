@@ -1,0 +1,11 @@
+.company {
+
+  .company-info,
+  .company-culture {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}

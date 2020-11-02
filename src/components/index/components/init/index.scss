@@ -1,0 +1,33 @@
+.init-box {
+  min-height: 320px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  justify-content: center;
+
+  .init-box-cont {
+    padding-top: 30px;
+
+    .img-box {
+      padding-bottom: 3%;
+
+      img {
+        display: block;
+        height: 100px;
+        margin: 0 auto;
+      }
+    }
+
+    .text-box {
+      text-align: center;
+      // padding-top: 30px;
+
+      p {
+        font-size: 13px;
+        line-height: 26px;
+      }
+    }
+  }
+}

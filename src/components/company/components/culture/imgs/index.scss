@@ -1,0 +1,22 @@
+.culture-img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .culture-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    height: 12.5vw;
+    // width: 14.28%;
+    // height: 14.28vw;
+    overflow: hidden;
+    background-color: #bababa;
+
+    img {
+      display: block;
+      height: 100%;
+    }
+  }
+}

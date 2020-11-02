@@ -1,0 +1,130 @@
+.logo-box {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 4% 0;
+
+  .logo-client {
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 4%;
+  }
+
+  .logo-link {
+    padding-top: 4%;
+
+    .logo-btn {
+      width: 156px;
+      height: 48px;
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #333333;
+      text-align: center;
+      line-height: 48px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #676767;
+      font-size: 13px;
+      transition-duration: 600ms;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+
+  .logo-list {
+    position: relative;
+    width: 80%;
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .btn {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      background: #000000;
+      cursor: pointer;
+
+      &.active {
+        background-color: #d3d3d3;
+      }
+
+      &:after {
+        content: '';
+        display: block;
+        width: 8px;
+        height: 8px;
+        transform: rotate(45deg);
+        transform-origin: center;
+      }
+
+      &.btn-prev {
+        left: -40px;
+
+        &::after {
+          border-bottom: 2px solid #ffffff;
+          border-left: 2px solid #ffffff;
+        }
+      }
+
+      &.btn-next {
+        right: -40px;
+
+        &::after {
+          border-top: 2px solid #ffffff;
+          border-right: 2px solid #ffffff;
+        }
+      }
+    }
+
+    .logos {
+
+      flex: 1;
+      overflow: hidden;
+
+      .logo-slide {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        transition-duration: 600ms;
+
+        .logo-item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          width: 16vw;
+          padding: 0 12px;
+          overflow: hidden;
+          box-sizing: border-box;
+          cursor: pointer;
+
+          img {
+            display: block;
+            max-width: 100%;
+            filter: grayscale(1);
+            transition-duration: 600ms;
+          }
+
+          &:hover {
+            img {
+              filter: grayscale(0)
+            }
+          }
+        }
+      }
+
+
+    }
+
+
+
+  }
+}

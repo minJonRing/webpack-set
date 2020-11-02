@@ -1,0 +1,75 @@
+.culture-info-box {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+
+  .culture-img-home {
+    padding: 3% 0;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .info-text-2 {
+    p {
+      line-height: 35px;
+
+      b {
+        font-size: 16px;
+        padding: 0 3px;
+      }
+    }
+  }
+
+  .culture-img-sub {
+    padding: 3% 0;
+
+    .culture-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 33.66vw;
+
+      .img-1 {
+        width: 66.5%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .img-2 {
+        width: 33%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      img {
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .culture-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: .5vw;
+      height: 16.17vw;
+
+      .img-3 {
+        width: 33%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      img {
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
