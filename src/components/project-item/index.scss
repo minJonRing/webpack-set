@@ -52,13 +52,15 @@
 
   .cont {
     width: 80%;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding-bottom: 3%;
 
     img {
       display: block;
-      max-width: 100%;
+      // max-width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
     }
   }
 }

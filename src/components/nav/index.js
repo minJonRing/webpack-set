@@ -15,7 +15,7 @@ class Nav extends React.Component {
             { name: '大型灯光秀', link: '/project?type=3' },
             { name: '影视宣传片', link: '/project?type=4' },
             { name: '三维产品动画', link: '/project?type=5' },
-            { name: '建筑可视化漫游', link: '/project?type=6' }
+            { name: 'MG动画', link: '/project?type=6' }
           ]
         },
         { name: '案例展示', link: '/project' },

@@ -18,7 +18,7 @@ class ProjectBox extends React.Component {
         { code: 3, name: '大型水幕秀' },
         { code: 4, name: '影视TV' },
         { code: 5, name: '建筑可视化漫游' },
-        { code: 6, name: '三维产品动画' }
+        { code: 6, name: 'MG动画' }
       ],
       btnActive: 0
     }
